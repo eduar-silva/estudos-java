@@ -1,0 +1,12 @@
+*.log
+*.tmp
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+/bin/
+/build/
+/out/
+*.class
+.metadata/
