@@ -8,7 +8,20 @@ public class Program {
 
 	public static void main(String[] args) {
 		
-		File file = new File("C:\\Users\\eduar\\Documents\\in.txt");
+		//solucao moderna de acordo com gemini
+		File file = new File("C:\\in.txt");
+		
+		try (Scanner sc = new Scanner(file)) {
+			while (sc.hasNextLine()) {
+				System.out.println(sc.nextLine());
+			}
+		}
+		catch (IOException e) {
+			System.out.println("Error: " + e.getMessage());
+		}
+		
+		/*
+		File file = new File("C:\\in.txt");
 		Scanner sc = null;
 		
 		try {
@@ -25,5 +38,6 @@ public class Program {
 				sc.close();				
 			}
 		}
+		*/
 	}
 }
