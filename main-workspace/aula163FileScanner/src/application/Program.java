@@ -8,7 +8,6 @@ public class Program {
 
 	public static void main(String[] args) {
 		
-<<<<<<< HEAD
 		//solucao moderna de acordo com gemini
 		File file = new File("C:\\in.txt");
 		
@@ -22,8 +21,6 @@ public class Program {
 		}
 		
 		/*
-=======
->>>>>>> f50eef4b6a689d9e1887f5655527e55a57ab6b6e
 		File file = new File("C:\\in.txt");
 		Scanner sc = null;
 		
