@@ -23,14 +23,12 @@ public class PessoaJuridica extends Pessoa{
 
 	@Override
 	public Double calculoImposto() {
-		double res=0;
 		if (numeroDeFuncionarios >= 10) {
-			res = rendaAnual * 0.14;
+			return rendaAnual * 0.14;
 		}
 		else {
-			res = rendaAnual * 0.16;
+			return rendaAnual * 0.16;
 		}
-		return res;
 	}
 	
 }
