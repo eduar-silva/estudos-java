@@ -43,7 +43,6 @@ public class Program {
 		System.out.println("Imposto: " + String.format("%.2f", cr.getInvoice().getTax()));
 		System.out.println("Pagamento total: " + String.format("%.2f", cr.getInvoice().getTotalPayment()));
 		
-		
 		sc.close();
 	}
 
